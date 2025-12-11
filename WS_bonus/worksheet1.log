@@ -1,0 +1,16 @@
+  995  make qemu
+  996  qemu-system-riscv64 --version
+  997  riscv64-unknown-elf-gcc --version
+  998  brew install qemu
+  999  cd WS_bonus
+ 1000  git add out.pdf
+ 1001  cd ~/Desktop/cs149/WS_bonus
+ 1002  git add out.pdf
+ 1003  git commit -m "Add out.pdf for worksheet"
+ 1004  git push
+ 1005  touch sleep,c
+ 1006  touch sleep.c
+ 1007  nano sleep.c
+ 1008  git add sleep.c
+ 1009  git commit -m "Add sleep.c for WS_bonus"
+ 1010  git push
