@@ -1,0 +1,16 @@
+ 1000  https://github.com/tanay2405/cs149.git
+ 1001  cd ~
+ 1002  cd Desktop
+ 1003  mkdir cs149
+ 1004  cd cs149
+ 1005  git init
+ 1006  git remote add origin https://github.com/tanay2405/cs149.git
+ 1007  git config --global user.email "tanay.allaparti@gmail.com"
+ 1008  git config --global user.name "tanay2405"
+ 1009  mkdir WS_bonus
+ 1010  cd WS_bonus
+ 1011  git add .
+ 1012  wget -O out.pdf https://tinyurl.com/yy94jltt
+ 1013  brew install wget\n
+ 1014  curl -L https://tinyurl.com/yy94jltt -o out.pdf\n
+ 1015  ls -latr
